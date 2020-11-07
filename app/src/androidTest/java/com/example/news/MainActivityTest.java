@@ -30,6 +30,6 @@ public class MainActivityTest extends TestCase {
 
     @Test
     public void listGoesOverTheFold() {
-        onView(withId(R.id.newsCardView)).perform(click());
+        onView(withId(R.id.newsCardView)).perform(click()) ;
     }
 }
