@@ -22,19 +22,6 @@ It uses many APIs to display information. It shows country specific new, weather
 - Android Studio
 - Retrofit 
 
-## Screenshots :camera:
-
-|                        Main menu                     |                          News                         |
-| :--------------------------------------------------: | :---------------------------------------------------: |
-|  <img src="Screenshot/mainMenu.png" height="620">    |      <img src="Screenshot/news.png" height="620">     |
-
-|                       Weather                        |                        Meme                           |                         Movies                        |
-| :--------------------------------------------------: | :---------------------------------------------------: | :---------------------------------------------------: |
-|   <img src="Screenshot/weather2.png" height="600">   |      <img src="Screenshot/meme.png" height="600">     |     <img src="Screenshot/movie.png" height="600">     |
-
-|                     Search Movies                    |                   Currency Exchange                   |
-| :--------------------------------------------------: | :---------------------------------------------------: |
-| <img src="Screenshot/searchMovie.png" height="600">  |  <img src="Screenshot/currency.png" height="600">     |
 
 
 ## Features:
