@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="10dp"
+    android:background="@drawable/textr"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="156dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="68dp"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:text="Log In"
+            android:textSize="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="336dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/plainwhite"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:hint="  Enter Email ID"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="336dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:hint="  Enter Password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emailTxt" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="255dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+
+            android:text="LOGIN"
+            android:textColor="#ffffff"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/passwordTxt" />
+
+
+        <Button
+            android:id="@+id/askSignup"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_marginTop="52dp"
+            android:text="Create An Account"
+            android:textColor="@color/colorHalfWhite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/loginBtn" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
